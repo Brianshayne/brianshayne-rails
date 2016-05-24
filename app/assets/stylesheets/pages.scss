@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+@import url("simplegrid.css");
+
+
+/* block specific */
+.header a {
+  color: #000000;
+}
+
+/* global */
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Georgia', sans-serif;
+    font-weight: 100;
+    background-image: url('http://www.designbolts.com/wp-content/uploads/2013/02/Free-Seamless-Wood-Textures-Patterns-For-3D-Mapping-2.jpg');
+
+}
+
+a, a:visited {
+    color: #D68218;
+    text-decoration: none;
+
+
+
+}
+
+.container {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 45%;
+    overflow: visible;
+
+}
+
+.container-half {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 45%;
+    overflow: visible;
+
+}
+@media handheld, only screen and (max-width: 767px){
+.container-half { height: 30%; }
+}
+
+.container-about {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-bottom: 3em;
+
+
+}
+
+
+.about {
+    font-size: 24px;
+    padding: 25px 50px;
+    background: rgba(255,255,255,.4);
+    box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
+
+
+}
+
+.about p {
+    max-width: 1140px;
+    line-height: 1.7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    display: inline-block;
+    width: 100%;
+    height: 90%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
+    box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
+
+}
+.block-about {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
+    box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
+
+}
+
+
+
+
+a.block {
+    transition: all 200ms ease-out;
+}
+
+a.block:hover {
+
+
+    opacity:0.4;
+
+}
+
+#avatar {
+    background-image: url('/assets/brian.jpg');
+    background-color: transparent;
+    width: 100%;
+    -webkit-box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
+    box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
+    zoom: 85%;
+    background-size: cover;
+}
+
+#info {
+    background-color: white;
+}
+
+.text_container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.text div {
+    padding: 0px 10px;
+}
+
+.name {
+    font-size: 46px;
+}
+
+.tagline {
+    font-size: 26px;
+    font-family: 'Roboto', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+#facebook {
+    background-image: url('/assets/facebook.svg');
+    background-color: rgb(56,97,157);
+
+}
+
+#twitter {
+    background-image: url('/assets/twitter.svg');
+    background-color: rgb(50, 170, 222);
+
+}
+
+#medium {
+    background-image: url('/assets/medium.svg');
+    background-color: rgb(25, 171, 108);
+
+}
+
+#github {
+    background-image: url('/assets/github.svg');
+    background-color: black;
+
+}
+
+#email {
+    background-image: url('/assets/gmail.svg');
+    background-color: rgb(220, 71, 58);
+
+}
+
+#linkedin {
+    background-image: url('/assets/linkedin.svg');
+    background-color: white;
+
+}
+.no-overflow, .no-overflow > div { overflow: visible; };
+
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 38px;
+    }
+
+    .tagline {
+        font-size: 22px;
+    }
+
+    .about {
+        font-size: 22px;
+        padding: 25px 30px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .name {
+        font-size: 26px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+    .about {
+        font-size: 18px;
+        padding: 25px 25px;
+    }
+}
