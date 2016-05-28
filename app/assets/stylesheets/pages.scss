@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100);
-@import url("simplegrid.scss");
+
 
 
 /* block specific */
@@ -8,12 +8,13 @@
 }
 
 /* global */
+html { height:100%;}
 body {
     margin: 0;
     font-family: 'Roboto', 'Georgia', sans-serif;
     font-weight: 100;
     background-image: url('http://www.designbolts.com/wp-content/uploads/2013/02/Free-Seamless-Wood-Textures-Patterns-For-3D-Mapping-2.jpg');
-
+    height: 100%;
 }
 
 a, a:visited {
@@ -82,6 +83,7 @@ a, a:visited {
     -webkit-box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
     -moz-box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
     box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
+
 
 }
 .block-about {
