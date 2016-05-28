@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100);
-@import url("simplegrid.css");
+@import url("simplegrid.scss");
 
 
 /* block specific */
@@ -112,7 +112,7 @@ a.block:hover {
 }
 
 #avatar {
-    background-image: url('/assets/brian.jpg');
+    background-image: image-url('brian.jpg');
     background-color: transparent;
     width: 100%;
     -webkit-box-shadow: 9px 9px 24px -5px rgba(0,0,0,1);
@@ -159,37 +159,37 @@ a.block:hover {
 }
 
 #facebook {
-    background-image: url('/assets/facebook.svg');
+    background-image: image-url('facebook.svg');
     background-color: rgb(56,97,157);
 
 }
 
 #twitter {
-    background-image: url('/assets/twitter.svg');
+    background-image: image-url('twitter.svg');
     background-color: rgb(50, 170, 222);
 
 }
 
 #medium {
-    background-image: url('/assets/medium.svg');
+    background-image: image-url('medium.svg');
     background-color: rgb(25, 171, 108);
 
 }
 
 #github {
-    background-image: url('/assets/github.svg');
+    background-image: image-url('github.svg');
     background-color: black;
 
 }
 
 #email {
-    background-image: url('/assets/gmail.svg');
+    background-image: image-url('gmail.svg');
     background-color: rgb(220, 71, 58);
 
 }
 
 #linkedin {
-    background-image: url('/assets/linkedin.svg');
+    background-image: image-url('linkedin.svg');
     background-color: white;
 
 }
