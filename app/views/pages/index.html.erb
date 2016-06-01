@@ -1,18 +1,19 @@
 <div class="grid grid-pad">
 
   <div class="container col-1-2 mobile-col-1-1">
-      <a alt="About Me" href="about.html" class="block header" id="info">
+    <%= link_to about_path , alt: "About Me" , class: "block header", id: "info" do %>
           <div class="text_container">
               <div class="text">
                   <div class="name">Brian Donohue</div>
                   <div class="tagline">Solving things</div>
               </div>
           </div>
-      </a>
+    <% end %>
+
   </div>
 
   <div class="container col-1-2 mobile-col-1-1">
-      <a alt="about me, second link" href="about.html" class="block" id="avatar"></a>
+    <%= link_to about_path , alt: "About Me" , class: "block", id: "avatar" do %><% end %>
   </div>
 </div>
 <div class="grid grid-pad">
